@@ -16,7 +16,7 @@ Building finance, registry, and operations systems for education and small busin
 
 ## About me
 
-Full-stack developer at the **Harare Institute of Public Health (HIPH)**. I build and maintain production systems for student finance, registry, and the public-facing institute website — mostly **Next.js**, **TypeScript**, **Prisma**, and **Clerk**.
+Full-stack developer at the **Harare Institute of Public Health (HIPH)**. I build and maintain production systems for student finance, registry, public websites, and business ERP tools — mostly **Next.js**, **TypeScript**, **Prisma**, and **Clerk**.
 
 ---
 
@@ -59,50 +59,67 @@ Public institute website — news, programmes, podcasts, magazines, and campus c
 
 ---
 
+## MNB — Website & Business Systems
+
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [**mnb_website**](https://github.com/recoe17/mnb_website) | React · Vite · Hono · Neon · Tailwind | **MNB public website** — modern React/TypeScript stack in `web/` plus legacy PHP/MySQL; downloads, Neon Postgres API *(private)* |
+| [**mnb_portal**](https://github.com/recoe17/mnb_portal) | Next.js · Clerk · Neon · TS | **MNB Portal** — authenticated portal with Next.js App Router, Clerk auth, and Neon Postgres *(private)* |
+| [**MNB-ERP-**](https://github.com/recoe17/MNB-ERP-) | TypeScript | **MNB ERP** — business management / ERP application *(public)* |
+| [**ERPMNB**](https://github.com/recoe17/ERPMNB) | — | **MNB ERP** foundation repo *(private)* |
+
+---
+
+## Forest Park Academy
+
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [**fpa-website**](https://github.com/recoe17/fpa-website) | Next.js · React · Tailwind · TS | Modern responsive school website for [Forest Park Academy](https://fpa.ac.zw) — Science & Technology specialist school *(private)* |
+| [**fpa_portal**](https://github.com/recoe17/fpa_portal) | Next.js · Clerk · Neon · TS | **Forest Park Academy Portal** — student/staff portal with Clerk auth and Neon Postgres *(private)* |
+
+---
+
+## Business & ERP — [@recoe17](https://github.com/recoe17)
+
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [**carrentayaru**](https://github.com/recoe17/carrentayaru) | Next.js · Clerk · Prisma · Neon | Full-stack **car rental** system — fleet, quotes, bookings, payments, reports, PDF output |
+| [**tradkuserp**](https://github.com/recoe17/tradkuserp) | Next.js · Prisma · TS | **Electrical company ERP** — jobs, quotations, invoices, WhatsApp/email, PDF generation |
+| [**maxvolt**](https://github.com/recoe17/maxvolt) | Next.js · Prisma · TS | **MaxVolt** — electrical company management (jobs, quotes, invoices, finances) *(private)* |
+| [**health-point**](https://github.com/recoe17/health-point) | Next.js · Neon · Recharts | **Company financial dashboard** — monthly/daily reports, Excel/CSV import, charts |
+| [**dnotemaker**](https://github.com/recoe17/dnotemaker) | Next.js · Clerk · Prisma | **Wood delivery note system** — form, live preview, print/PDF, offline PWA sync *(private)* |
+| [**group1.app**](https://github.com/recoe17/group1.app) | Java · JUnit · Swing | Console + GUI **school management** — students, fees, attendance, results, reports |
+
+---
+
 ## Other projects — [@BossRecoe17](https://github.com/BossRecoe17)
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [**HIPH Hub (AMR & Narcotics)**](https://hiph-hub.vercel.app) | Next.js · Axum · React Native | Public-health research hub — web app plus mobile apps for **AMR questionnaires** and **Narcotics surveys** |
-| [**graduate-platform**](https://github.com/BossRecoe17/graduate-platform) | Next.js · Clerk · Neon · TS | **Graduate Talent Pool** — registration platform for graduates *(private)* |
-
----
-
-## Projects — [@recoe17](https://github.com/recoe17)
-
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [**carrentayaru**](https://github.com/recoe17/carrentayaru) | Next.js · TS · Clerk · Prisma · Neon | Full-stack car rental system — fleet, quotes, bookings, payments, reports, PDF output |
-| [**tradkuserp**](https://github.com/recoe17/tradkuserp) | Next.js · TS · Prisma | Electrical company ERP — jobs, quotations, invoices, WhatsApp/email, PDF generation |
-| [**health-point**](https://github.com/recoe17/health-point) | Next.js · TS · Neon · Recharts | Company financial dashboard with monthly/daily reports and Excel/CSV import |
-| [**MNB-ERP-**](https://github.com/recoe17/MNB-ERP-) | TypeScript | Business management / ERP application |
-| [**group1.app**](https://github.com/recoe17/group1.app) | Java · JUnit · Swing | Console + optional GUI school management system |
+| [**HIPH Hub (AMR & Narcotics)**](https://hiph-hub.vercel.app) | Next.js · Axum · React Native | Public-health research hub — web app plus mobile apps for AMR & Narcotics surveys |
+| [**graduate-platform**](https://github.com/BossRecoe17/graduate-platform) | Next.js · Clerk · Neon | **Graduate Talent Pool** registration platform *(private)* |
+| [**hiph-francistown**](https://github.com/BossRecoe17/hiph-francistown) | Next.js · Prisma | HIPH Botswana (Francistown campus) public website |
 
 ---
 
 ## Tech stack
 
 ```
-TypeScript · JavaScript · Next.js · React · React Native · Tailwind CSS
+TypeScript · JavaScript · Next.js · React · React Native · Vite · Hono · Tailwind CSS
 Prisma · Drizzle ORM · PostgreSQL · Neon · Axum (Rust)
-Clerk · Vercel · MDX · Git · GitHub Actions
-Java · JUnit · Swing
+Clerk · Vercel · MDX · PWA · Git · GitHub Actions
+Java · JUnit · Swing · PHP (legacy integrations)
 ```
 
 ---
 
 ## Recent highlights
 
-**Chenjerai (Aug 2026)**
-- Fixed false exam balance when revision students start a new semester
-- Added split bank + cash capture for exam fee payments
-- Zimbabwe-time finance report boundaries for late-night cashier entries
-- Fees reallocation with Unallocated credit
+**Chenjerai (Aug 2026)** — exam fee fixes, split bank/cash capture, Zimbabwe-time reports, fee reallocation
 
-**HIPH Website (2026)**
-- Protected Magazine Edition 1 & 2 with view-only controls
-- News posts, podcast episodes, and academic calendar updates
-- Homepage and content rendering improvements
+**HIPH Website (2026)** — protected magazine editions, news/podcast updates, content rendering
+
+**MNB & FPA** — public website modernization, authenticated portals, ERP foundations
 
 ---
 
@@ -121,7 +138,7 @@ Java · JUnit · Swing
 ## Connect
 
 - **GitHub:** [@recoe17](https://github.com/recoe17) · [@BossRecoe17](https://github.com/BossRecoe17)
-- **Website:** [hiph.ac.zw](https://hiph.ac.zw) · [HIPH Hub](https://hiph-hub.vercel.app)
+- **Websites:** [hiph.ac.zw](https://hiph.ac.zw) · [fpa.ac.zw](https://fpa.ac.zw) · [HIPH Hub](https://hiph-hub.vercel.app)
 - **Twitter/X:** [@recoezw](https://twitter.com/recoezw)
 - **Location:** Harare, Zimbabwe
 
