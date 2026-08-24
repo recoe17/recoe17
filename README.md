@@ -6,6 +6,7 @@
 Building finance, registry, and operations systems for education and small business
 
 [![GitHub](https://img.shields.io/badge/GitHub-recoe17-181717?style=flat&logo=github)](https://github.com/recoe17)
+[![GitHub Alt](https://img.shields.io/badge/GitHub-BossRecoe17-181717?style=flat&logo=github)](https://github.com/BossRecoe17)
 [![Location](https://img.shields.io/badge/Location-Harare-blue?style=flat)](https://github.com/recoe17)
 [![Company](https://img.shields.io/badge/Company-Harare%20Institute%20of%20Public%20Health-red?style=flat)](https://github.com/recoe17)
 
@@ -15,7 +16,7 @@ Building finance, registry, and operations systems for education and small busin
 
 ## About me
 
-Full-stack developer focused on **TypeScript / Next.js** applications with real-world billing, reporting, and admin workflows. Most of my recent work is on **Chenjerai**, the internal platform for the Harare Institute of Public Health (HIPH), plus several ERP-style products for rentals, trades, and finance.
+Full-stack developer focused on **TypeScript / Next.js** applications with real-world billing, reporting, and admin workflows. Most of my recent work is on **Chenjerai**, the internal platform for the Harare Institute of Public Health (HIPH), plus several ERP-style products for rentals, trades, finance, and public-health tooling.
 
 ---
 
@@ -44,7 +45,17 @@ Core contributor on the production system used by registry, finance, and cashier
 
 ---
 
-## Public projects
+## Projects — [@BossRecoe17](https://github.com/BossRecoe17)
+
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [**hiph-francistown**](https://github.com/BossRecoe17/hiph-francistown) | Next.js · TS · Prisma · Tailwind | Public website for **HIPH Botswana (Francistown campus)** — programmes, content, and campus info |
+| [**HIPH Hub (AMR & Narcotics)**](https://hiph-hub.vercel.app) | Next.js · Axum · React Native | Public-health research hub — web app plus mobile apps for **AMR questionnaires** and **Narcotics surveys** ([repo private](https://github.com/BossRecoe17/HIPH--AMR-AND-NARCOTICS)) |
+| [**graduate-platform**](https://github.com/BossRecoe17/graduate-platform) | Next.js · Clerk · Neon · TS | **Graduate Talent Pool** — registration platform for graduates with auth, profiles, and Postgres backend *(private)* |
+
+---
+
+## Projects — [@recoe17](https://github.com/recoe17)
 
 | Project | Stack | Description |
 |---------|-------|-------------|
@@ -56,21 +67,11 @@ Core contributor on the production system used by registry, finance, and cashier
 
 ---
 
-## Other repositories
-
-| Project | Visibility | Notes |
-|---------|------------|-------|
-| [**hiph-francistown**](https://github.com/BossRecoe17/hiph-francistown) | Public | HIPH Botswana campus website |
-| graduate-platform | Private | Graduation management platform |
-| HIPH--AMR-AND-NARCOTICS | Private | HIPH AMR & Narcotics hub |
-
----
-
 ## Tech stack
 
 ```
-TypeScript · JavaScript · Next.js · React · Tailwind CSS
-Prisma · Drizzle ORM · PostgreSQL · Neon
+TypeScript · JavaScript · Next.js · React · React Native · Tailwind CSS
+Prisma · Drizzle ORM · PostgreSQL · Neon · Axum (Rust)
 Clerk · Vercel · Git · GitHub Actions
 Java · JUnit · Swing
 ```
@@ -102,6 +103,7 @@ Java · JUnit · Swing
 ## Connect
 
 - **GitHub:** [@recoe17](https://github.com/recoe17) · [@BossRecoe17](https://github.com/BossRecoe17)
+- **Live demo:** [HIPH Hub](https://hiph-hub.vercel.app)
 - **Twitter/X:** [@recoezw](https://twitter.com/recoezw)
 - **Location:** Harare, Zimbabwe
 
