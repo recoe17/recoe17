@@ -86,14 +86,51 @@ Public institute website — news, programmes, podcasts, magazines, and campus c
 
 ---
 
-## MNB — Website & Business Systems
+## Featured work — MNB & D-Note
 
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [**mnb_website**](https://github.com/recoe17/mnb_website) | React · Vite · Hono · Neon · Tailwind | **MNB public website** — modern React/TypeScript stack in `web/` plus legacy PHP/MySQL; downloads, Neon Postgres API *(private)* |
-| [**mnb_portal**](https://github.com/recoe17/mnb_portal) | Next.js · Clerk · Neon · TS | **MNB Portal** — authenticated portal with Next.js App Router, Clerk auth, and Neon Postgres *(private)* |
-| [**MNB-ERP-**](https://github.com/recoe17/MNB-ERP-) | TypeScript | **MNB ERP** — business management / ERP application *(public)* |
-| [**ERPMNB**](https://github.com/recoe17/ERPMNB) | — | **MNB ERP** foundation repo *(private)* |
+### MNB Website — [mnb_website](https://github.com/recoe17/mnb_website)
+**Private repo** · React · Vite · Hono · Neon · Tailwind CSS
+
+Public-facing **MNB website** — migrated from legacy PHP/MySQL to a modern React + TypeScript stack.
+
+| Area | What I built |
+|------|----------------|
+| **Modern frontend** | Vite, React 19, TypeScript, Tailwind CSS v4, React Router |
+| **API layer** | Hono on Node with Neon Postgres — proxied from Vite as `/api/*` |
+| **Legacy migration** | Kept PHP/MySQL root site while building new stack in `web/` |
+| **Downloads & content** | PDF downloads, database-driven site content via Neon |
+| **Database scripts** | Schema apply, MySQL → Neon migration tooling |
+
+**Related repos:** [mnb_portal](https://github.com/recoe17/mnb_portal) (authenticated portal · Next.js + Clerk + Neon)
+
+---
+
+### MNB ERP — [MNB-ERP-](https://github.com/recoe17/MNB-ERP-) · [ERPMNB](https://github.com/recoe17/ERPMNB)
+**Public + private repos** · TypeScript · Next.js · Business management
+
+Full **MNB ERP** system for business operations and student/business management.
+
+| Area | What I built |
+|------|----------------|
+| **ERP core** | Business management modules in [MNB-ERP-](https://github.com/recoe17/MNB-ERP-) *(public)* |
+| **ERP foundation** | Extended ERP codebase in [ERPMNB](https://github.com/recoe17/ERPMNB) *(private)* |
+| **Student management** | Student/business management workflows |
+| **MNB Portal** | Authenticated portal in [mnb_portal](https://github.com/recoe17/mnb_portal) — Clerk auth + Neon Postgres |
+
+---
+
+### D-Note App — [dnotemaker](https://github.com/recoe17/dnotemaker)
+**Private repo** · Next.js · Clerk · Prisma · PostgreSQL · PWA
+
+**Create D-Notes seamlessly** — professional wood delivery note creation for field and office use.
+
+| Area | What I built |
+|------|----------------|
+| **Delivery notes** | Full wood delivery note form matching Sustainable Afforestation Association template |
+| **Calculations** | Dynamic item lists with automatic volume calc (L × W × H × 0.65) |
+| **Print & PDF** | Live preview, print, and save-as-PDF |
+| **Offline / PWA** | Works offline, auto-syncs queued notes when back online |
+| **Auth & storage** | Clerk authentication, PostgreSQL + Prisma, role-based workflows |
 
 ---
 
@@ -101,21 +138,20 @@ Public institute website — news, programmes, podcasts, magazines, and campus c
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [**fpa-website**](https://github.com/recoe17/fpa-website) | Next.js · React · Tailwind · TS | Modern responsive school website for [Forest Park Academy](https://fpa.ac.zw) — Science & Technology specialist school *(private)* |
-| [**fpa_portal**](https://github.com/recoe17/fpa_portal) | Next.js · Clerk · Neon · TS | **Forest Park Academy Portal** — student/staff portal with Clerk auth and Neon Postgres *(private)* |
+| [**fpa-website**](https://github.com/recoe17/fpa-website) | Next.js · React · Tailwind · TS | Modern responsive school website for [Forest Park Academy](https://fpa.ac.zw) *(private)* |
+| [**fpa_portal**](https://github.com/recoe17/fpa_portal) | Next.js · Clerk · Neon · TS | Forest Park Academy student/staff portal *(private)* |
 
 ---
 
-## Business & ERP — [@recoe17](https://github.com/recoe17)
+## Other Business & ERP — [@recoe17](https://github.com/recoe17)
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [**carrentayaru**](https://github.com/recoe17/carrentayaru) | Next.js · Clerk · Prisma · Neon | Full-stack **car rental** system — fleet, quotes, bookings, payments, reports, PDF output |
-| [**tradkuserp**](https://github.com/recoe17/tradkuserp) | Next.js · Prisma · TS | **Electrical company ERP** — jobs, quotations, invoices, WhatsApp/email, PDF generation |
-| [**maxvolt**](https://github.com/recoe17/maxvolt) | Next.js · Prisma · TS | **MaxVolt** — electrical company management (jobs, quotes, invoices, finances) *(private)* |
-| [**health-point**](https://github.com/recoe17/health-point) | Next.js · Neon · Recharts | **Company financial dashboard** — monthly/daily reports, Excel/CSV import, charts |
-| [**dnotemaker**](https://github.com/recoe17/dnotemaker) | Next.js · Clerk · Prisma | **Wood delivery note system** — form, live preview, print/PDF, offline PWA sync *(private)* |
-| [**group1.app**](https://github.com/recoe17/group1.app) | Java · JUnit · Swing | Console + GUI **school management** — students, fees, attendance, results, reports |
+| [**carrentayaru**](https://github.com/recoe17/carrentayaru) | Next.js · Clerk · Prisma · Neon | Car rental system — fleet, quotes, bookings, payments, PDF reports |
+| [**tradkuserp**](https://github.com/recoe17/tradkuserp) | Next.js · Prisma · TS | Electrical company ERP — jobs, quotations, invoices, WhatsApp/email |
+| [**maxvolt**](https://github.com/recoe17/maxvolt) | Next.js · Prisma · TS | MaxVolt electrical company management *(private)* |
+| [**health-point**](https://github.com/recoe17/health-point) | Next.js · Neon · Recharts | Company financial dashboard — reports, Excel/CSV import, charts |
+| [**group1.app**](https://github.com/recoe17/group1.app) | Java · JUnit · Swing | Console + GUI school management system |
 
 ---
 
@@ -123,9 +159,9 @@ Public institute website — news, programmes, podcasts, magazines, and campus c
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [**HIPH Hub (AMR & Narcotics)**](https://hiph-hub.vercel.app) | Next.js · Axum · React Native | Public-health research hub — web app plus mobile apps for AMR & Narcotics surveys |
-| [**graduate-platform**](https://github.com/BossRecoe17/graduate-platform) | Next.js · Clerk · Neon | **Graduate Talent Pool** registration platform *(private)* |
-| [**hiph-francistown**](https://github.com/BossRecoe17/hiph-francistown) | Next.js · Prisma | HIPH Botswana (Francistown campus) public website |
+| [**HIPH Hub (AMR & Narcotics)**](https://hiph-hub.vercel.app) | Next.js · Axum · React Native | Public-health research hub — AMR & Narcotics mobile + web |
+| [**graduate-platform**](https://github.com/BossRecoe17/graduate-platform) | Next.js · Clerk · Neon | Graduate Talent Pool registration *(private)* |
+| [**hiph-francistown**](https://github.com/BossRecoe17/hiph-francistown) | Next.js · Prisma | HIPH Botswana (Francistown campus) website |
 
 ---
 
@@ -135,7 +171,7 @@ Public institute website — news, programmes, podcasts, magazines, and campus c
 
 **HIPH Website (2026)** — protected magazine editions, news/podcast updates, content rendering
 
-**MNB & FPA** — public website modernization, authenticated portals, ERP foundations
+**MNB & D-Note** — MNB website modernization, MNB ERP, D-Note offline PWA delivery notes
 
 ---
 
