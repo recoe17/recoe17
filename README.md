@@ -10,6 +10,33 @@ Building finance, registry, and operations systems for education and small busin
 [![Location](https://img.shields.io/badge/Location-Harare-blue?style=flat)](https://github.com/recoe17)
 [![Company](https://img.shields.io/badge/Company-Harare%20Institute%20of%20Public%20Health-red?style=flat)](https://github.com/recoe17)
 
+<br />
+
+### GitHub Activity
+
+<img src="https://github-readme-stats.vercel.app/api?username=recoe17&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165" alt="GitHub stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=recoe17&theme=tokyonight&hide_border=true" height="165" alt="GitHub streak" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=recoe17&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true" height="165" alt="Top languages" />
+
+<br />
+
+### Languages & Tools
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=recoe17&layout=donut&theme=tokyonight&hide_border=true&langs_count=10&count_private=true" width="420" alt="Languages donut chart" />
+
+<br />
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
 </div>
 
 ---
@@ -102,17 +129,6 @@ Public institute website — news, programmes, podcasts, magazines, and campus c
 
 ---
 
-## Tech stack
-
-```
-TypeScript · JavaScript · Next.js · React · React Native · Vite · Hono · Tailwind CSS
-Prisma · Drizzle ORM · PostgreSQL · Neon · Axum (Rust)
-Clerk · Vercel · MDX · PWA · Git · GitHub Actions
-Java · JUnit · Swing · PHP (legacy integrations)
-```
-
----
-
 ## Recent highlights
 
 **Chenjerai (Aug 2026)** — exam fee fixes, split bank/cash capture, Zimbabwe-time reports, fee reallocation
@@ -120,18 +136,6 @@ Java · JUnit · Swing · PHP (legacy integrations)
 **HIPH Website (2026)** — protected magazine editions, news/podcast updates, content rendering
 
 **MNB & FPA** — public website modernization, authenticated portals, ERP foundations
-
----
-
-## GitHub stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=recoe17&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=recoe17&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
 
 ---
 
