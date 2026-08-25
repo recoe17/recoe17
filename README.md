@@ -10,6 +10,8 @@ Building finance, registry, and operations systems for education and small busin
 [![Location](https://img.shields.io/badge/Location-Harare-blue?style=flat)](https://github.com/recoe17)
 [![Company](https://img.shields.io/badge/Company-Harare%20Institute%20of%20Public%20Health-red?style=flat)](https://github.com/recoe17)
 
+**700+ commits** across **15+ production projects** · HIPH · MNB · FPA · ERP systems
+
 <br />
 
 ### GitHub Activity
@@ -47,14 +49,36 @@ Full-stack developer at the **Harare Institute of Public Health (HIPH)**. I buil
 
 ---
 
+## All projects at a glance
+
+| Project | Live / Repo | Commits | Stack |
+|---------|-------------|---------|-------|
+| **MNB ERP** | [erp.mnb.ac.zw](https://erp.mnb.ac.zw) · [mnb_portal](https://github.com/recoe17/mnb_portal) | **340** | Next.js · Clerk · Neon |
+| **D-Note App** | [dnotemaker](https://github.com/recoe17/dnotemaker) | **73** | Next.js · Clerk · Prisma · PWA |
+| **Chenjerai** | Collaborator · private | **64+** | Next.js · Drizzle · Clerk |
+| **Health Point** | [health-point](https://github.com/recoe17/health-point) | **41** | Next.js · Neon · Recharts |
+| **HIPH Website** | [hiph.ac.zw](https://hiph.ac.zw) · collaborator | **27+** | Next.js · Prisma · MDX |
+| **Tradkuserp** | [tradkuserp](https://github.com/recoe17/tradkuserp) | **31** | Next.js · Prisma |
+| **FPA Portal** | [fpa_portal](https://github.com/recoe17/fpa_portal) | **149** | Next.js · Clerk · Neon |
+| **MaxVolt ERP** | [maxvolt](https://github.com/recoe17/maxvolt) | **28** | Next.js · Prisma |
+| **HIPH Francistown** | [hiph-francistown](https://github.com/BossRecoe17/hiph-francistown) | **27** | Next.js · Prisma |
+| **CarRent Ayaru** | [carrentayaru](https://github.com/recoe17/carrentayaru) | **14** | Next.js · Clerk · Prisma |
+| **MNB Website** | [mnb_website](https://github.com/recoe17/mnb_website) | **8** | React · Vite · Hono · Neon |
+| **HIPH Hub** | [hiph-hub.vercel.app](https://hiph-hub.vercel.app) | **8** | Next.js · React Native |
+| **MNB-ERP-** | [MNB-ERP-](https://github.com/recoe17/MNB-ERP-) | **6** | TypeScript |
+| **FPA Website** | [fpa.ac.zw](https://fpa.ac.zw) · [fpa-website](https://github.com/recoe17/fpa-website) | **5** | Next.js · Tailwind |
+| **group1.app** | [group1.app](https://github.com/recoe17/group1.app) | **6** | Java · Swing |
+| **Graduate Platform** | [graduate-platform](https://github.com/BossRecoe17/graduate-platform) | **3** | Next.js · Clerk · Neon |
+| **ERPMNB** | [ERPMNB](https://github.com/recoe17/ERPMNB) | **1** | TypeScript |
+
+---
+
 ## Featured work — HIPH (Collaborator)
 
 ### Chenjerai — Student & Finance Platform
-**Collaborator** · Private repo · Next.js · TypeScript · Prisma · Drizzle · Clerk · Vercel
+**Collaborator** · Private repo · **64+ commits** · Next.js · TypeScript · Prisma · Drizzle · Clerk · Vercel
 
 Production platform used daily by **registry**, **finance**, and **cashiers** at HIPH.
-
-**64+ commits** · **~9,700 lines added**
 
 | Area | What I built |
 |------|----------------|
@@ -70,11 +94,7 @@ Production platform used daily by **registry**, **finance**, and **cashiers** at
 ---
 
 ### HIPH Website — [hiph.ac.zw](https://hiph.ac.zw)
-**Collaborator** · Private repo · Next.js · TypeScript · Prisma · MDX · Vercel
-
-Public institute website — news, programmes, podcasts, magazines, and campus content.
-
-**27+ commits**
+**Collaborator** · Private repo · **27+ commits** · Next.js · TypeScript · Prisma · MDX · Vercel
 
 | Area | What I built |
 |------|----------------|
@@ -82,103 +102,92 @@ Public institute website — news, programmes, podcasts, magazines, and campus c
 | **Magazine** | Protected view-only Magazine Edition 1 & 2 with API-served pages, print/download protection, edition picker |
 | **Podcast** | Featured episode embeds, episode updates, YouTube integration |
 | **UI fixes** | Sticky header scroll fix, Markdown/image rendering, homepage portraits, news card image handling |
-| **Francistown campus** | Botswana campus site ([hiph-francistown](https://github.com/BossRecoe17/hiph-francistown)) |
+| **Francistown campus** | Botswana campus site ([hiph-francistown](https://github.com/BossRecoe17/hiph-francistown) · **27 commits**) |
 
 ---
 
 ## Featured work — MNB & D-Note
 
-### MNB Website — [mnb_website](https://github.com/recoe17/mnb_website)
-**Private repo** · React · Vite · Hono · Neon · Tailwind CSS
+### MNB ERP — [erp.mnb.ac.zw](https://erp.mnb.ac.zw)
+**340 commits** · [mnb_portal](https://github.com/recoe17/mnb_portal) *(private)* · Next.js · Clerk · Neon · TypeScript
 
-Public-facing **MNB website** — migrated from legacy PHP/MySQL to a modern React + TypeScript stack.
+Production **MNB ERP** — the main system powering business operations at MNB.
+
+| Area | What I built |
+|------|----------------|
+| **ERP core** | Full authenticated portal — dashboards, modules, and business workflows |
+| **Auth & users** | Clerk authentication, role-based access, Neon Postgres backend |
+| **Business ops** | Student/business management, finance and operational modules |
+| **Production deploy** | Live at **[erp.mnb.ac.zw](https://erp.mnb.ac.zw)** |
+
+**Related repos:** [MNB-ERP-](https://github.com/recoe17/MNB-ERP-) (**6 commits** · public) · [ERPMNB](https://github.com/recoe17/ERPMNB) (**1 commit** · private foundation)
+
+---
+
+### MNB Website — [mnb_website](https://github.com/recoe17/mnb_website)
+**8 commits** · React · Vite · Hono · Neon · Tailwind CSS *(private)*
+
+Public-facing **MNB website** — legacy PHP/MySQL migrated to modern React + TypeScript in `web/`.
 
 | Area | What I built |
 |------|----------------|
 | **Modern frontend** | Vite, React 19, TypeScript, Tailwind CSS v4, React Router |
-| **API layer** | Hono on Node with Neon Postgres — proxied from Vite as `/api/*` |
-| **Legacy migration** | Kept PHP/MySQL root site while building new stack in `web/` |
-| **Downloads & content** | PDF downloads, database-driven site content via Neon |
-| **Database scripts** | Schema apply, MySQL → Neon migration tooling |
-
-**Related repos:** [mnb_portal](https://github.com/recoe17/mnb_portal) (authenticated portal · Next.js + Clerk + Neon)
-
----
-
-### MNB ERP — [MNB-ERP-](https://github.com/recoe17/MNB-ERP-) · [ERPMNB](https://github.com/recoe17/ERPMNB)
-**Public + private repos** · TypeScript · Next.js · Business management
-
-Full **MNB ERP** system for business operations and student/business management.
-
-| Area | What I built |
-|------|----------------|
-| **ERP core** | Business management modules in [MNB-ERP-](https://github.com/recoe17/MNB-ERP-) *(public)* |
-| **ERP foundation** | Extended ERP codebase in [ERPMNB](https://github.com/recoe17/ERPMNB) *(private)* |
-| **Student management** | Student/business management workflows |
-| **MNB Portal** | Authenticated portal in [mnb_portal](https://github.com/recoe17/mnb_portal) — Clerk auth + Neon Postgres |
+| **API layer** | Hono on Node with Neon Postgres |
+| **Legacy migration** | PHP/MySQL root + new stack in `web/` |
+| **Downloads & DB** | PDF downloads, MySQL → Neon migration scripts |
 
 ---
 
 ### D-Note App — [dnotemaker](https://github.com/recoe17/dnotemaker)
-**Private repo** · Next.js · Clerk · Prisma · PostgreSQL · PWA
+**73 commits** · Next.js · Clerk · Prisma · PostgreSQL · PWA *(private)*
 
-**Create D-Notes seamlessly** — professional wood delivery note creation for field and office use.
+**Create D-Notes seamlessly** — professional wood delivery note creation.
 
 | Area | What I built |
 |------|----------------|
-| **Delivery notes** | Full wood delivery note form matching Sustainable Afforestation Association template |
-| **Calculations** | Dynamic item lists with automatic volume calc (L × W × H × 0.65) |
-| **Print & PDF** | Live preview, print, and save-as-PDF |
+| **Delivery notes** | Wood delivery note form matching Sustainable Afforestation Association template |
+| **Calculations** | Dynamic items with automatic volume calc (L × W × H × 0.65) |
+| **Print & PDF** | Live preview, print, save-as-PDF |
 | **Offline / PWA** | Works offline, auto-syncs queued notes when back online |
-| **Auth & storage** | Clerk authentication, PostgreSQL + Prisma, role-based workflows |
+| **Auth & storage** | Clerk auth, PostgreSQL + Prisma, role-based workflows |
 
 ---
 
 ## Forest Park Academy
 
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [**fpa-website**](https://github.com/recoe17/fpa-website) | Next.js · React · Tailwind · TS | Modern responsive school website for [Forest Park Academy](https://fpa.ac.zw) *(private)* |
-| [**fpa_portal**](https://github.com/recoe17/fpa_portal) | Next.js · Clerk · Neon · TS | Forest Park Academy student/staff portal *(private)* |
+| Project | Commits | Stack | Description |
+|---------|---------|-------|-------------|
+| [**fpa_portal**](https://github.com/recoe17/fpa_portal) | **149** | Next.js · Clerk · Neon | FPA student/staff portal *(private)* |
+| [**fpa-website**](https://github.com/recoe17/fpa-website) | **5** | Next.js · Tailwind | [fpa.ac.zw](https://fpa.ac.zw) school website *(private)* |
 
 ---
 
 ## Other Business & ERP — [@recoe17](https://github.com/recoe17)
 
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [**carrentayaru**](https://github.com/recoe17/carrentayaru) | Next.js · Clerk · Prisma · Neon | Car rental system — fleet, quotes, bookings, payments, PDF reports |
-| [**tradkuserp**](https://github.com/recoe17/tradkuserp) | Next.js · Prisma · TS | Electrical company ERP — jobs, quotations, invoices, WhatsApp/email |
-| [**maxvolt**](https://github.com/recoe17/maxvolt) | Next.js · Prisma · TS | MaxVolt electrical company management *(private)* |
-| [**health-point**](https://github.com/recoe17/health-point) | Next.js · Neon · Recharts | Company financial dashboard — reports, Excel/CSV import, charts |
-| [**group1.app**](https://github.com/recoe17/group1.app) | Java · JUnit · Swing | Console + GUI school management system |
+| Project | Commits | Stack | Description |
+|---------|---------|-------|-------------|
+| [**health-point**](https://github.com/recoe17/health-point) | **41** | Next.js · Neon · Recharts | Company financial dashboard — reports, Excel/CSV import |
+| [**tradkuserp**](https://github.com/recoe17/tradkuserp) | **31** | Next.js · Prisma | Electrical company ERP — jobs, quotes, invoices, WhatsApp |
+| [**maxvolt**](https://github.com/recoe17/maxvolt) | **28** | Next.js · Prisma | MaxVolt electrical company management *(private)* |
+| [**carrentayaru**](https://github.com/recoe17/carrentayaru) | **14** | Next.js · Clerk · Prisma | Car rental — fleet, bookings, payments, PDF reports |
+| [**group1.app**](https://github.com/recoe17/group1.app) | **6** | Java · Swing | Console + GUI school management system |
 
 ---
 
 ## Other projects — [@BossRecoe17](https://github.com/BossRecoe17)
 
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [**HIPH Hub (AMR & Narcotics)**](https://hiph-hub.vercel.app) | Next.js · Axum · React Native | Public-health research hub — AMR & Narcotics mobile + web |
-| [**graduate-platform**](https://github.com/BossRecoe17/graduate-platform) | Next.js · Clerk · Neon | Graduate Talent Pool registration *(private)* |
-| [**hiph-francistown**](https://github.com/BossRecoe17/hiph-francistown) | Next.js · Prisma | HIPH Botswana (Francistown campus) website |
-
----
-
-## Recent highlights
-
-**Chenjerai (Aug 2026)** — exam fee fixes, split bank/cash capture, Zimbabwe-time reports, fee reallocation
-
-**HIPH Website (2026)** — protected magazine editions, news/podcast updates, content rendering
-
-**MNB & D-Note** — MNB website modernization, MNB ERP, D-Note offline PWA delivery notes
+| Project | Commits | Stack | Description |
+|---------|---------|-------|-------------|
+| [**HIPH Hub**](https://hiph-hub.vercel.app) | **8** | Next.js · React Native | AMR & Narcotics research hub — web + mobile |
+| [**hiph-francistown**](https://github.com/BossRecoe17/hiph-francistown) | **27** | Next.js · Prisma | HIPH Botswana (Francistown campus) website |
+| [**graduate-platform**](https://github.com/BossRecoe17/graduate-platform) | **3** | Next.js · Clerk · Neon | Graduate Talent Pool *(private)* |
 
 ---
 
 ## Connect
 
 - **GitHub:** [@recoe17](https://github.com/recoe17) · [@BossRecoe17](https://github.com/BossRecoe17)
-- **Websites:** [hiph.ac.zw](https://hiph.ac.zw) · [fpa.ac.zw](https://fpa.ac.zw) · [HIPH Hub](https://hiph-hub.vercel.app)
+- **Live sites:** [erp.mnb.ac.zw](https://erp.mnb.ac.zw) · [hiph.ac.zw](https://hiph.ac.zw) · [fpa.ac.zw](https://fpa.ac.zw) · [HIPH Hub](https://hiph-hub.vercel.app)
 - **Twitter/X:** [@recoezw](https://twitter.com/recoezw)
 - **Location:** Harare, Zimbabwe
 
