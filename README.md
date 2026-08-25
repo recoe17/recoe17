@@ -37,6 +37,8 @@ Building finance, registry, and operations systems for education and small busin
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
@@ -45,7 +47,7 @@ Building finance, registry, and operations systems for education and small busin
 
 ## About me
 
-Full-stack developer at the **Harare Institute of Public Health (HIPH)**. I build and maintain production systems for student finance, registry, public websites, and business ERP tools — mostly **Next.js**, **TypeScript**, **Prisma**, and **Clerk**.
+Full-stack developer at the **Harare Institute of Public Health (HIPH)**. I build and maintain production systems for student finance, registry, public websites, and business ERP tools — **Next.js**, **TypeScript**, **Prisma**, **Clerk**, and **WordPress** (themes, plugins, and CMS-managed sites).
 
 ---
 
@@ -127,13 +129,14 @@ Production **MNB ERP** — the main system powering business operations at MNB.
 ### MNB Website — [mnb_website](https://github.com/recoe17/mnb_website)
 **8 commits** · React · Vite · Hono · Neon · Tailwind CSS *(private)*
 
-Public-facing **MNB website** — legacy PHP/MySQL migrated to modern React + TypeScript in `web/`.
+Public-facing **MNB website** — legacy **PHP/WordPress/MySQL** migrated to modern React + TypeScript in `web/`.
 
 | Area | What I built |
 |------|----------------|
+| **WordPress & PHP** | Proficient in WordPress themes, plugins, and legacy CMS content management |
 | **Modern frontend** | Vite, React 19, TypeScript, Tailwind CSS v4, React Router |
 | **API layer** | Hono on Node with Neon Postgres |
-| **Legacy migration** | PHP/MySQL root + new stack in `web/` |
+| **Legacy migration** | PHP/MySQL/WordPress root + new stack in `web/` |
 | **Downloads & DB** | PDF downloads, MySQL → Neon migration scripts |
 
 ---
